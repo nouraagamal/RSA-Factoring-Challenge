@@ -21,6 +21,7 @@ Factorize as many numbers as possible into a product of two smaller numbers.
             if it hasn’t finish
     Push all your scripts, source code, etc… to your repository
 """
+
 # library to get arguments
 import sys
 
@@ -29,6 +30,7 @@ def fc():
     """
     function fc to search file to convert number and format n=p*q
     """
+
     try:
         revfile = sys.argv[1]
         with open(revfile) as f:
